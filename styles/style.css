@@ -1,0 +1,79 @@
+@font-face {
+    font-family: "Comic Relief";
+    src: url("https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&display=swap");
+    font-weight: normal;
+}
+
+body{
+    background-image: url('img/bg iceland.jpg');
+    background-repeat: 	no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+
+    margin: 0px;
+
+    font-family: "Comic Relief", sans-serif;
+    color: white;
+}
+
+
+.navagation ul{
+    display: block;
+    list-style-type: none;
+    background-color: transparent;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.navagation li{
+    float: left;
+}
+.navagation a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navagation a:hover{
+    background-color: hsl(0, 0%, 10%);
+}
+
+main {
+    margin: 0px;
+    padding: 0px;
+    
+    color: white;
+}
+.flex-contener{
+    
+    height: 100dvh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+}
+.sub-felx-contener{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    font-size: 20px;
+
+    padding: 0;
+    margin: 5px;
+
+    background: transparent;
+    
+    color: aquamarine;
+}
+.content-btn{
+    background: aquamarine;
+    border: 0;
+    color: black;
+    font-weight: bold;
+    font-family: "Comic Relief", sans-serif;
+}
